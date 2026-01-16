@@ -97,7 +97,7 @@ header{
 }
 
 .container{
-    margin-top: 20px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,9 +119,9 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     color: #4D4D4D;
 }
-
-.center_data {
-    display: inline-block; 
+.container p{
+    text-align: center;
+    font-size: 0.7rem;
 }
 .container_section{
     margin-top:6px ;
@@ -168,13 +168,15 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 73px;
+    gap: 150px;
 }
+
 #fourth-section img{
     width: 147px;
     height: 144px;
 }
 .fourth_content{
+    margin-top: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
@@ -204,30 +206,49 @@ header{
 .first_color{
     color: #4CAF4F;
 }
-.second_color{
-    color: #4CAF4F;
-}
 .fifth{
-    
-    padding-left: 48px;
-    padding-bottom: 21px;
-    padding-right: 48px;
-    padding-top: 21px;
+    margin-top: 22px;
+    margin-top: 22px;
+    padding: 21px 48px;
     display: flex;
-    justify-content:center;
+    justify-content: space-between; 
     align-items: center;
-}
-.fifth_heading{
-    margin-right: 50%;
-    color: #4D4D4D;
-}
-.fifth_heading h3{
-    margin-bottom: 6px;
+    gap: 40px;
 }
 .fifth_body{
     color: #4D4D4D;
-    margin-right:20px;
-    gap: 30px;
+    margin-right:100px;
+    gap: 40px;
     display: flex;
 
 }
+
+#sixth-section{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tesla-img{
+   width: 108px;
+   height: 108px;
+   margin-top: 150px;
+}
+.sixth_content{
+    width: 600px;
+    height: 57px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.tesla-body{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.sixth_content_data p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
