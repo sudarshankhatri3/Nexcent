@@ -104,8 +104,11 @@ header{
     align-items: center;
 }
 .container_data{
+    margin-top: 48px;
+    padding: 48px;
     display: flex;
     flex-direction:row;
+    gap:150px;
 }
 .center_data{
     text-align: center;
@@ -119,9 +122,6 @@ header{
 
 .center_data {
     display: inline-block; 
-}
-.container_data{
-    margin-top: 8px;
 }
 .container_section{
     margin-top:6px ;
@@ -139,8 +139,14 @@ header{
     color: #4D4D4D;
 
 }
+.container_image img{
+    height: 50px;
+    width: 75px;
+    object-fit: contain;
+
+}
 .container_para{
-    margin-top: 3px;
+    margin-top: 6px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -149,7 +155,7 @@ header{
 }
 .container_para p{
     margin-top: 3px;
-    font-size: 4px;
+    font-size: 15px;
     text-align: center;
 }
 
