@@ -33,6 +33,9 @@ header{
     align-items: center;
 
 }
+a{
+    color: #FFFFFF;
+}
 #first-section{
     margin-top: 60px;
     display: flex;
