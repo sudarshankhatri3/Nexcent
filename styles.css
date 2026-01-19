@@ -255,3 +255,38 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* container */
+
+#cont{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.data_hightlight{
+    color: #4D4D4D;
+    height: 76px;
+    width: 660px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.regs{
+    width: 250px;
+    height: 37px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+}
+.regs a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
