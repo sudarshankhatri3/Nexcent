@@ -290,3 +290,44 @@ a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+/* sixth section  */
+
+#sixth_container{
+    margin-top: 140px;
+}
+.first_sixth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_sixth h3{
+    color: #4D4D4D;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    
+}
+.first_sixth p{
+    color: #717171;
+    width: 600px;
+    height: 25px;
+    font-size: 18pxpx;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+.second_sixth{
+    margin: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_sixth img{
+    width: 300px;
+    height: 312px;
+    object-fit: fill;
+}
