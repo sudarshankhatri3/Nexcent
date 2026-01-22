@@ -24,6 +24,7 @@ header{
 .navigation-button{
     height: 37px;
     width: 133px;
+    text-decoration: none;
     background-color: #4CAF4F;
     color: #FFFFFF;
     border-radius: 3px;
@@ -38,6 +39,8 @@ a{
 }
 #first-section{
     margin-top: 60px;
+    margin-right: 200px;
+    padding: 20px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -46,6 +49,7 @@ a{
 }
 .first_content{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap:20px;
@@ -96,7 +100,7 @@ a{
 .image_content{
     margin-top:2px;
     display: flex;
-    gap: 5rem;
+    gap: 8.3rem;
 }
 
 .container{
@@ -371,6 +375,26 @@ footer{
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
+}
+.list_img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+.list_img img{
+    height: 10px;
+    width: 10px;
+    object-fit: cover;
+}
+.copyright h4{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright p{
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer_second_sec{
